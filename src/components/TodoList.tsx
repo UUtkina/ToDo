@@ -8,7 +8,7 @@ interface ITask {
 const TodoList: React.FC = (): JSX.Element => {
     const [taskList, setTaskList] = useState<ITask[]>([
         {
-            name: "Погулять с собакой",
+            name: "Погулятьсобакой",
             completed: false,
         },
     ]);
