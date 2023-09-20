@@ -38,7 +38,7 @@ const TodoList: React.FC = (): JSX.Element => {
 
     return (
         <div className={style.container}>
-            <h1 className={style.h1}>Todo List App</h1>
+            <h1 className={style.h1}>TodoList App</h1>
             <input
             className={style.input}
                 type="text"
