@@ -50,7 +50,7 @@ const TodoList: React.FC = (): JSX.Element => {
                 className={`${style.button} alert alert-primary`}
                 onClick={handleAddTask}
             >
-                Add Task
+                Add  Task
             </button>
             <ol>
                 {taskList.map((task, index) => (

@@ -3,14 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CandyShop from './components/Candy/CandyShop';
+import DogEffect from './components/DogEffekt/DogEffect';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLDivElement
 );
 root.render(
-  <React.StrictMode>
+  <>
     <App />
-  </React.StrictMode>
+    <CandyShop/>
+    <DogEffect/>
+    
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
